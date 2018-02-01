@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="lyallrepo" name="video test" version="0.0.1" provider-name="sergeant5936">
+	<extension point="xbmc.addon.repository" name="video test">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/sergeant5936/lyallrepo/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/sergeant5936/lyallrepo/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/sergeant5936/lyallrepo/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">test repo</summary>
+		<description lang="en">video</description>
+		<genre>movies,trailers,tvshows,uk,usa</genre>
+	</extension>
+</addon>
